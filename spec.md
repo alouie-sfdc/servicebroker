@@ -1383,7 +1383,7 @@ it to correlate the resource it creates.
 | --- | --- | --- |
 | context | object | Contextual data for the Service Binding. |
 | service_id* | string | MUST be the ID of the Service Offering that is being used. |
-| plan_id* | string | MUST be the ID of the Servie Plan from the service that is being used. |
+| plan_id* | string | MUST be the ID of the Service Plan from the service that is being used. |
 | app_guid | string | Deprecated in favor of `bind_resource.app_guid`. GUID of an application associated with the Service Binding to be created. If present, MUST be a non-empty string. |
 | bind_resource | [BindResource](#bind-resource-object) | A JSON object that contains data for Platform resources associated with the Service Binding to be created. See [Bind Resource Object](#bind-resource-object) for more information. |
 | parameters | object | Configuration parameters for the Service Binding. Service Brokers SHOULD ensure that the client has provided valid configuration parameters and values for the operation. |
